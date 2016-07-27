@@ -1,0 +1,12 @@
+[package]
+name = "spimage"
+version = "0.1.0"
+authors = ["Paho Lurie-Gregg <paho@paholg.com>"]
+description = "Image utilities for polar coordinates."
+
+[dependencies]
+  spin = { git = "https://github.com/paholg/spin" }
+  glium = "*"
+  image = "*"
+  generic-array = "*"
+  typenum = "*"
